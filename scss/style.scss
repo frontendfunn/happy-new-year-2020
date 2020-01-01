@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald:700&display=swap');
+$font-family: 'Oswald', sans-serif;
+@function rem($value) {
+  @return unquote(($value/1px)/16+'rem');
+}
+
+.container {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body {
+  background-color: #010001;
+}
+
+$count: 20;
+$speed: 20s;
+.wrapper {
+  position: relative;
+  border: 1px solid;
+  transform-style: preserve-3d;
+  animation: rotateWrapper $speed linear infinite;
+  .year {
+    position: absolute;
+    display: inline-flex;
+    left: 50%;
+    font-size: 20rem;
+    font-weight: 700;
+    font-family: $font-family;
+    transform-origin: top;
+    transform-style: preserve-3d;
+    color: #ffffff;
+    @for $i from 1 through $count {
+      &:nth-child(#{$i}) {
+        transform: translatex(-50%) rotatex(#{$i * 360 / $count}deg);
+        $color: hsl($i * 360 / $count, $i * 360 / $count, 50%);
+        text-shadow: 0px 0px 5px rgba($color, 1), 0px 0px 10px rgba($color, 1),
+          0px 0px 15px rgba($color, 1);
+      }
+    }
+  }
+}
+
+@keyframes rotateWrapper {
+  from {
+    transform: rotateX(0deg);
+  }
+  to {
+    transform: rotateX(360deg);
+  }
+}
+
+.inspired {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  color: #ffffff;
+  font-family: $font-family;
+  justify-content: center;
+  text-align: center;
+  background-color: #000000;
+  a {
+    color: red;
+    text-decoration: none;
+  }
+}

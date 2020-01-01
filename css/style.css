@@ -1,0 +1,210 @@
+@import url("https://fonts.googleapis.com/css?family=Oswald:700&display=swap");
+.container {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body {
+  background-color: #010001;
+}
+
+.wrapper {
+  position: relative;
+  border: 1px solid;
+  -webkit-transform-style: preserve-3d;
+          transform-style: preserve-3d;
+  -webkit-animation: rotateWrapper 20s linear infinite;
+          animation: rotateWrapper 20s linear infinite;
+}
+
+.wrapper .year {
+  position: absolute;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  left: 50%;
+  font-size: 20rem;
+  font-weight: 700;
+  font-family: "Oswald", sans-serif;
+  -webkit-transform-origin: top;
+          transform-origin: top;
+  -webkit-transform-style: preserve-3d;
+          transform-style: preserve-3d;
+  color: #ffffff;
+}
+
+.wrapper .year:nth-child(1) {
+  -webkit-transform: translatex(-50%) rotatex(18deg);
+          transform: translatex(-50%) rotatex(18deg);
+  text-shadow: 0px 0px 5px #967669, 0px 0px 10px #967669, 0px 0px 15px #967669;
+}
+
+.wrapper .year:nth-child(2) {
+  -webkit-transform: translatex(-50%) rotatex(36deg);
+          transform: translatex(-50%) rotatex(36deg);
+  text-shadow: 0px 0px 5px #ad8952, 0px 0px 10px #ad8952, 0px 0px 15px #ad8952;
+}
+
+.wrapper .year:nth-child(3) {
+  -webkit-transform: translatex(-50%) rotatex(54deg);
+          transform: translatex(-50%) rotatex(54deg);
+  text-shadow: 0px 0px 5px #c4b73b, 0px 0px 10px #c4b73b, 0px 0px 15px #c4b73b;
+}
+
+.wrapper .year:nth-child(4) {
+  -webkit-transform: translatex(-50%) rotatex(72deg);
+          transform: translatex(-50%) rotatex(72deg);
+  text-shadow: 0px 0px 5px #b7db24, 0px 0px 10px #b7db24, 0px 0px 15px #b7db24;
+}
+
+.wrapper .year:nth-child(5) {
+  -webkit-transform: translatex(-50%) rotatex(90deg);
+          transform: translatex(-50%) rotatex(90deg);
+  text-shadow: 0px 0px 5px #80f20d, 0px 0px 10px #80f20d, 0px 0px 15px #80f20d;
+}
+
+.wrapper .year:nth-child(6) {
+  -webkit-transform: translatex(-50%) rotatex(108deg);
+          transform: translatex(-50%) rotatex(108deg);
+  text-shadow: 0px 0px 5px #33ff00, 0px 0px 10px #33ff00, 0px 0px 15px #33ff00;
+}
+
+.wrapper .year:nth-child(7) {
+  -webkit-transform: translatex(-50%) rotatex(126deg);
+          transform: translatex(-50%) rotatex(126deg);
+  text-shadow: 0px 0px 5px #00ff1a, 0px 0px 10px #00ff1a, 0px 0px 15px #00ff1a;
+}
+
+.wrapper .year:nth-child(8) {
+  -webkit-transform: translatex(-50%) rotatex(144deg);
+          transform: translatex(-50%) rotatex(144deg);
+  text-shadow: 0px 0px 5px #00ff66, 0px 0px 10px #00ff66, 0px 0px 15px #00ff66;
+}
+
+.wrapper .year:nth-child(9) {
+  -webkit-transform: translatex(-50%) rotatex(162deg);
+          transform: translatex(-50%) rotatex(162deg);
+  text-shadow: 0px 0px 5px #00ffb3, 0px 0px 10px #00ffb3, 0px 0px 15px #00ffb3;
+}
+
+.wrapper .year:nth-child(10) {
+  -webkit-transform: translatex(-50%) rotatex(180deg);
+          transform: translatex(-50%) rotatex(180deg);
+  text-shadow: 0px 0px 5px cyan, 0px 0px 10px cyan, 0px 0px 15px cyan;
+}
+
+.wrapper .year:nth-child(11) {
+  -webkit-transform: translatex(-50%) rotatex(198deg);
+          transform: translatex(-50%) rotatex(198deg);
+  text-shadow: 0px 0px 5px #00b3ff, 0px 0px 10px #00b3ff, 0px 0px 15px #00b3ff;
+}
+
+.wrapper .year:nth-child(12) {
+  -webkit-transform: translatex(-50%) rotatex(216deg);
+          transform: translatex(-50%) rotatex(216deg);
+  text-shadow: 0px 0px 5px #0066ff, 0px 0px 10px #0066ff, 0px 0px 15px #0066ff;
+}
+
+.wrapper .year:nth-child(13) {
+  -webkit-transform: translatex(-50%) rotatex(234deg);
+          transform: translatex(-50%) rotatex(234deg);
+  text-shadow: 0px 0px 5px #001aff, 0px 0px 10px #001aff, 0px 0px 15px #001aff;
+}
+
+.wrapper .year:nth-child(14) {
+  -webkit-transform: translatex(-50%) rotatex(252deg);
+          transform: translatex(-50%) rotatex(252deg);
+  text-shadow: 0px 0px 5px #3300ff, 0px 0px 10px #3300ff, 0px 0px 15px #3300ff;
+}
+
+.wrapper .year:nth-child(15) {
+  -webkit-transform: translatex(-50%) rotatex(270deg);
+          transform: translatex(-50%) rotatex(270deg);
+  text-shadow: 0px 0px 5px #8000ff, 0px 0px 10px #8000ff, 0px 0px 15px #8000ff;
+}
+
+.wrapper .year:nth-child(16) {
+  -webkit-transform: translatex(-50%) rotatex(288deg);
+          transform: translatex(-50%) rotatex(288deg);
+  text-shadow: 0px 0px 5px #cc00ff, 0px 0px 10px #cc00ff, 0px 0px 15px #cc00ff;
+}
+
+.wrapper .year:nth-child(17) {
+  -webkit-transform: translatex(-50%) rotatex(306deg);
+          transform: translatex(-50%) rotatex(306deg);
+  text-shadow: 0px 0px 5px #ff00e6, 0px 0px 10px #ff00e6, 0px 0px 15px #ff00e6;
+}
+
+.wrapper .year:nth-child(18) {
+  -webkit-transform: translatex(-50%) rotatex(324deg);
+          transform: translatex(-50%) rotatex(324deg);
+  text-shadow: 0px 0px 5px #ff0099, 0px 0px 10px #ff0099, 0px 0px 15px #ff0099;
+}
+
+.wrapper .year:nth-child(19) {
+  -webkit-transform: translatex(-50%) rotatex(342deg);
+          transform: translatex(-50%) rotatex(342deg);
+  text-shadow: 0px 0px 5px #ff004d, 0px 0px 10px #ff004d, 0px 0px 15px #ff004d;
+}
+
+.wrapper .year:nth-child(20) {
+  -webkit-transform: translatex(-50%) rotatex(360deg);
+          transform: translatex(-50%) rotatex(360deg);
+  text-shadow: 0px 0px 5px red, 0px 0px 10px red, 0px 0px 15px red;
+}
+
+@-webkit-keyframes rotateWrapper {
+  from {
+    -webkit-transform: rotateX(0deg);
+            transform: rotateX(0deg);
+  }
+  to {
+    -webkit-transform: rotateX(360deg);
+            transform: rotateX(360deg);
+  }
+}
+
+@keyframes rotateWrapper {
+  from {
+    -webkit-transform: rotateX(0deg);
+            transform: rotateX(0deg);
+  }
+  to {
+    -webkit-transform: rotateX(360deg);
+            transform: rotateX(360deg);
+  }
+}
+
+.inspired {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  color: #ffffff;
+  font-family: "Oswald", sans-serif;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  background-color: #000000;
+}
+
+.inspired a {
+  color: red;
+  text-decoration: none;
+}
+/*# sourceMappingURL=style.css.map */
